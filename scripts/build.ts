@@ -29,7 +29,7 @@ try {
   await exec([
     config.outfile,
     "--target",
-    `node${NODE_VERSION}-win-x64`,
+    `node${NODE_VERSION}-darwin-arm64`,
     "--compress",
     "GZip",
     "--output",
